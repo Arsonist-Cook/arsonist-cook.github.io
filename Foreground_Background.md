@@ -11,7 +11,7 @@ O sistema Android foi criado com a prioridade ao usuário e sua experiência com
 Lembrem-se disso! Afinal, tudo gira em torno do teu usuário, pois é ele quem decide se fica ou sai do teu aplicativo...
 
 ## Foreground e Background
-Toda os elementos que são responsáveis pela a interação com o usuário e que componham a interface, incluindo: elementos de navegação, apresentação de conteúdo e animação. É dito estar em foreground.
+Toda os elementos que são responsáveis pela a interação com o usuário e que componham a interface, incluindo: componentes de navegação, apresentação de conteúdo e animação. É dito estar em foreground.
 Essas funcionalidades apenas se atém a manter a atenção do usuário e conversar com ele.
 
 Em contrapartida, todas as funcionalidades que dão significado ao teu aplicatido e que ocorrem nos bastidoses, como:  gravar informações nos dispositivos de armazenamento, processar dados e acessar a rede. Estes são ditos estarem em background.
