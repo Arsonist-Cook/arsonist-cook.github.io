@@ -21,15 +21,15 @@ Resumindo, tudo o que está interagindo com o usuário diz-se estar em foregroun
 ### Tá bom, Mas e daí?
 A importância desse conceito é vista ao olharmos melhor para os conceitos de componentes básicos do Android, onde ocorre uma divisão bem nítida disso.
 
-Onde temos, como componente de foreground a Activity e de background o Service, Broadcast Receiver e o Content Provider.(A primeira vista esses termos parecem "bichos de sete cabeças", mas não se assute, conversaremos sobre eles em um momento futuro e com calma. Acredite, extenderiamos muito esse artigo...)
+Onde temos, como componente de foreground a Activity e de background o Service, Broadcast Receiver e o Content Provider.(A primeira vista, esses termos parecem "bichos de sete cabeças", mas não se assute, conversaremos sobre eles em um momento futuro e com calma. Acredite, extenderiamos muito esse artigo...)
 
 Os componentes de foreground sempre apresentarão algo ao usuário enquanto os outros serão executados, sem nem ao menos o usuário saber que eles existem. Essa é a mágica que criamos!
 
-Em suma, o foreground conversa com o usuário enquanto o background suporta essa conversa!
+Em suma, o foreground conversa com o usuário, enquanto o background suporta essa conversa!
 
 ### A Idéia Geral da Execução em Background
 Tendo falado isso tudo, não seria de se espantar que tenhamos a Activity como um dos pontos de entrada primários de nossas aplicações. Mas atente que, independente da linguagem de programação, nosso aplicativo inicia com uma linha de execução apenas e cabe a nós, programadores, separar isso conforme a necessidade. Não é de se admirar que qualquer método seja executado junto e sequencialmente. Assim acontece com nosso aplicativo.
 
 Se iniciamos um componente que roda ou executa em background, apenas o desvinculamos do ciclo de vida da Activity, mas não geramos uma linha de execução separada.
 
-Desvincular uma execução do ciclo de vida da Activity é importante, pois esse é um dos componentes mais dinâmicos que temos, eles são recriados a qualquer modificação de posição de tela ou navegação. Imagine interromper uma tarefa importante e que dure mais tempo que a paciência de nosso usuário? - Isso não é incomum...
+Desvincular uma execução do ciclo de vida da Activity é importante, pois esse é um dos componentes mais dinâmicos que temos. Eles são recriados a qualquer modificação de posição de tela ou navegação. Imagine interromper uma tarefa importante e que dure mais tempo que a paciência de nosso usuário? - Isso não é incomum...
