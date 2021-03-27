@@ -6,7 +6,7 @@ Este artigo é parte de minhas notas de estudo e me ajudaram bastante a entender
 Estas notas independem de linguagem de programação e meu foco é sobre arquitetura e conceitos gerais, sendo assim, aplicam-se em qualquer tecnologia de implementação que se faça uso.
 
  ## Filosofia Mestre do Android
-O sistema Android foi criado com a prioridade ao usuário e sua experiência com a interface dos dispositivo! Por isso da expressão: "Make me Amazing!", que no português ficaria "Faça-me Extraordinário!". Enfim, experiência do usuário em primeiro lugar!
+O sistema Android foi criado com a prioridade ao usuário e sua experiência com a interface dos dispositivos! Por isso da expressão: "Make me Amazing!", que no português ficaria "Faça-me Extraordinário!". Enfim, experiência do usuário em primeiro lugar!
 
 Lembrem-se disso! Afinal, tudo gira em torno do teu usuário, pois ele quem decide se fica ou sai do teu aplicativo...
 
@@ -14,7 +14,7 @@ Lembrem-se disso! Afinal, tudo gira em torno do teu usuário, pois ele quem deci
 Toda a funcionalidade que tende a atender a interação com o usuário e compor a interface do usuário, incluindo: funcionalidades de navegação, apresentação, animação. É dito estar em foreground.
 Essas funcionalidades apenas se atém a manter a atenção do usuário e conversar com ele.
 
-Em contra-partida, todas as funcionalidades que dão significado ao teu aplicatido e que ocorrem nos bastidoses, como:  gravar informações nos dispositivos de armazenamento, processar dados e acessar a rede. Estes são ditos estarem em background.
+Em contrapartida, todas as funcionalidades que dão significado ao teu aplicatido e que ocorrem nos bastidoses, como:  gravar informações nos dispositivos de armazenamento, processar dados e acessar a rede. Estes são ditos estarem em background.
 
 Resumindo, tudo o que está interagindo com o usuário diz-se estar em foreground e tudo o que está escondido dele está em background.
 
