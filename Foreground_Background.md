@@ -14,7 +14,7 @@ Lembrem-se disso! Afinal, tudo gira em torno do teu usuário, pois é ele quem d
 Toda os elementos que são responsáveis pela a interação com o usuário e que componham a interface, incluindo: componentes de navegação, apresentação de conteúdo e animação. É dito estar em foreground.
 Essas funcionalidades apenas se atém a manter a atenção do usuário e conversar com ele.
 
-Em contrapartida, todas as funcionalidades que dão significado ao teu aplicatido e que ocorrem nos bastidoses, como:  gravar informações nos dispositivos de armazenamento, processar dados e acessar a rede. Estes são ditos estarem em background.
+Em contrapartida, todas as funções que dão significado ao teu aplicatido e que ocorrem nos bastidores como:  gravar informações nos dispositivos de armazenamento, processar dados e acessar a rede. Estes são ditos estarem em background.
 
 Resumindo, tudo o que está interagindo com o usuário diz-se estar em foreground e tudo o que está escondido dele está em background.
 
@@ -28,7 +28,7 @@ Os componentes de foreground sempre apresentarão algo ao usuário enquanto os o
 Em suma, o foreground conversa com o usuário enquanto o background suporta essa conversa!
 
 ### A Idéia Geral da Execução em Background
-Tendo falado isso tudo, não seria de se espantar que tenhamos a Activity como um dos pontos de entrada primários de nossas aplicações. Mas atente que: Independente da linguagem de programação, nosso aplicativo inicia com uma linha de execução apenas e cabe a nós separar isso conforme a necessidade. Não é de se admirar que qualquer método seja executado junto e sequencialmente. Assim acontece com nosso aplicativo.
+Tendo falado isso tudo, não seria de se espantar que tenhamos a Activity como um dos pontos de entrada primários de nossas aplicações. Mas atente que, independente da linguagem de programação, nosso aplicativo inicia com uma linha de execução apenas e cabe a nós, programadores, separar isso conforme a necessidade. Não é de se admirar que qualquer método seja executado junto e sequencialmente. Assim acontece com nosso aplicativo.
 
 Se iniciamos um componente que roda ou executa em background, apenas o desvinculamos do ciclo de vida da Activity, mas não geramos uma linha de execução separada.
 
